@@ -1,0 +1,53 @@
+.searchBar{
+    color: rgb(11, 83, 69);
+    text-align: right;
+    margin-right: 0;
+    margin-top: 6%;
+    background-color: #004c3f;
+    
+}
+
+.link{
+    color: rgb(255, 68, 0);
+    margin-right: 38%;
+    font-size: 40px;
+}
+
+.searchBar input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 83, 69);
+    width: 200px;
+    height: 30px;
+    font-size: 128%;
+    border-radius:10px;
+    text-align: center;
+    border-color: rgb(163, 228, 215);
+  
+}
+
+.searchBar input::placeholder{
+    color: rgb(11, 83, 69);
+}
+
+
+.searchBar button{
+    color: white;
+    background-color: violet;
+    border-color: rgb(141, 238, 130);
+    cursor: pointer;
+    text-align:center;
+    
+}
+.searchBar img{
+    position:relative;    
+    height: 22px;
+    cursor: pointer;
+   
+
+}
+.searchBar hr{
+    border-color: hsla(0, 16%, 89%, 0.206);
+    border-width: 1px;
+  
+}
+

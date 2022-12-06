@@ -1,0 +1,45 @@
+.paginado {
+    text-align: center;
+    list-style: none;
+    display:inline-flex;
+    z-index: 1;
+}
+
+.paginado li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.paginado li.active{
+    background-color: #004c3f;
+    color: white;
+}
+
+.paginado li button {
+    background: transparent;
+    border: none;
+    border-color: transparent;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -12px;
+    transition: 0.5s;
+    width: 45px;
+
+    border-radius: 10px;
+
+}
+
+.paginado li button:hover {
+    background: #004c3f;
+    color: white;
+    opacity: 50%;
+}
+
+.paginado li button:focus {
+    outline: none;
+}
+

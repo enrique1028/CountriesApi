@@ -1,0 +1,31 @@
+.landing {
+    align-items: center;
+    justify-content:right;
+    min-height: 60vh;
+    background: none;
+}
+.landing img {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: -30%;
+    margin-left: 10%;
+
+}
+
+.landing button {
+    font-size: 128%;
+    align-content: center;
+    background: #0b6164;
+    color: white;
+    border-radius: 5px;
+    width: 10%;
+    height: 35px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.landing h1 {
+    margin-left: 5%;
+    margin-right: 50%;
+    margin-top: 8%;
+    color: #013c3e;
+}
